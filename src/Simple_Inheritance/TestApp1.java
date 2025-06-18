@@ -1,4 +1,4 @@
-package Inheritance;
+package Simple_Inheritance;
 
 //import java.util.Scanner;
 
