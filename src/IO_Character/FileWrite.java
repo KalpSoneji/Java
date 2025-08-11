@@ -1,4 +1,4 @@
-package IO_Byte;
+package IO_Character;
 
 import java.io.*;
 import java.util.Scanner;
