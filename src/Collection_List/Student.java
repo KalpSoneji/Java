@@ -17,4 +17,8 @@ public class Student {
     public void dispData() {
         System.out.println(rno + "\t" + name + "\t" + std);
     }
+    
+    public String toString() {
+    	return rno + "\t" + name + "\t" + std;
+    }
 }

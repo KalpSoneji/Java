@@ -1,4 +1,4 @@
-package Inner_Class;
+package Collection_List_Inner_Class;
 
 public abstract class anonymous {
  

@@ -6,7 +6,7 @@ public class Array_List {
 
     public static void main(String[] args) {
 
-        ArrayList list = new ArrayList();
+        ArrayList<Object> list = new ArrayList<Object>();
 
         list.add(1);
         list.add(2.34);
@@ -21,28 +21,62 @@ public class Array_List {
 
         System.out.println("List size = " + list.size());
         
-        System.out.println("\nList Elements: ");
+//        System.out.println("\nList Elements: ");
+//        
+//        for (int i = 0; i < list.size(); i++) {
+//        
+//        	Object obj = list.get(i); 
+//            
+//        	if (obj instanceof Student) 
+//                ((Student) obj).dispData();
+//            else 
+//                System.out.println(obj); 
+//            
+//        }
+//
+//        System.out.println("\nList Elements: ");
+//        
+//        for (Object obj : list) {
+//            
+//        	if (obj instanceof Student) 
+//                ((Student) obj).dispData(); 
+//            else 
+//                System.out.println(obj); 
+//            
+//        }
         
-        for (int i = 0; i < list.size(); i++) {
+//        Iterator itr = list.iterator();
+//        
+//        while(itr.hasNext()) {
+//        	
+//        	Object obj = itr.next();
+//        	
+//        	if (obj instanceof Student) 
+//                ((Student) obj).dispData(); 
+//            else 
+//                System.out.println(obj);
+//        	
+//        }
+        	
+//        list.stream().forEach(System.out::println);
         
-        	Object obj = list.get(i); 
-            
-        	if (obj instanceof Student) 
-                ((Student) obj).dispData();
-            else 
-                System.out.println(obj); 
-            
-        }
-
-        System.out.println("\nList Elements: ");
+        list.stream().forEach(
+        	
+        	obj -> {
+        		
+        		if (obj instanceof Student) 
+                    ((Student) obj).dispData(); 
+                else 
+                    System.out.println(obj);
+        		
+        	}
+        		
+        );
+    	
+        	
         
-        for (Object obj : list) {
-            
-        	if (obj instanceof Student) 
-                ((Student) obj).dispData(); 
-            else 
-                System.out.println(obj); 
-            
-        }
+        
+        
+        
     }
 }
