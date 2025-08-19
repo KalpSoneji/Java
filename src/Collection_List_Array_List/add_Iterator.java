@@ -2,7 +2,7 @@ package Collection_List_Array_List;
 
 import java.util.*;
 
-public class Array_List2 {
+public class add_Iterator {
 
 	public static void main(String[] args) {
 

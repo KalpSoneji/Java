@@ -2,7 +2,7 @@ package Collection_List_Array_List;
 
 import java.util.*;
 
-public class Array_List {
+public class TestApp_Student {
 
     public static void main(String[] args) {
 
@@ -73,10 +73,5 @@ public class Array_List {
         		
         );
     	
-        	
-        
-        
-        
-        
     }
 }
