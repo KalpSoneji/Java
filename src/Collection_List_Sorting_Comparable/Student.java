@@ -1,4 +1,4 @@
-package Collection_List_Sorting;
+package Collection_List_Sorting_Comparable;
 
 import java.util.*;
 

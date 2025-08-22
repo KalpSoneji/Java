@@ -1,4 +1,4 @@
-package Collection_List_Sorting;
+package Collection_List_Sorting_Comparable;
 
 import java.util.*;
 
@@ -21,14 +21,7 @@ public class TestApp1 {
 			s.dispData();
 		}
 		
-		Collections.sort(list);
-//		
-//		System.out.println("\nSorting by std:\n");
-//		
-//		for (int i = 0; i < list.size(); i++) {
-//			Student s = list.get(i);
-//			s.dispData();
-//		}
+		Collections.sort(list);		
 
         System.out.println("\nSorting by name:\n");
         
