@@ -70,9 +70,9 @@ public class Student {
 			
 		}
 		
-		else {
+		else 
 			System.out.println("Database not connected - " + conn);
-		}
+		
 		
 		return rowsAffected;
 	}
@@ -235,6 +235,25 @@ public class Student {
 //		
 //	}
 	
+	
+//Select Query
+//	
+//	public static void main(String[] args) {
+//		
+//		Student s1 = new Student();
+//		
+//		ArrayList<StudentBean> list = s1.getAllRecords();
+//		
+//		for (int i = 0; i < list.size(); i++) {
+//			
+//			StudentBean s = list.get(i);
+//			System.out.println(s.getId() + "\t" + s.getName() + "\t" + s.getStd() + "\t" + s.getMarks());
+//			
+//		}
+//		
+//	}
+	
+//  All CRUD operations together below
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -329,6 +348,5 @@ public class Student {
 		}
 
 	}
-
 
 }
